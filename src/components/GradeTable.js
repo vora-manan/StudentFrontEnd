@@ -1,4 +1,3 @@
-import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -6,6 +5,7 @@ import TableCell, { tableCellClasses } from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+import * as React from 'react';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -27,39 +27,39 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-function createData(grade,range) {
-  return { grade,range };
+function createData(grade, range) {
+  return { grade, range };
 }
 
 
 const rows = [
-    createData('A', '90-100'),
-    createData('B','80-89'),
-    createData('c', '70-79'),
-    createData('D','60-69'),
-    createData('E','50-59'),
-    createData('F','40-49'),
-    createData('X','Below 40'),
+  createData('A', '90-100'),
+  createData('B', '80-89'),
+  createData('c', '70-79'),
+  createData('D', '60-69'),
+  createData('E', '50-59'),
+  createData('F', '40-49'),
+  createData('X', 'Below 40'),
 
-  ];
+];
 
 export default function GradeTable() {
   return (
     <TableContainer>
-      <Table aria-label="customized table" style={{margin:'auto', border:'2px solid grey'}} >
+      <Table aria-label="customized table" style={{ margin: 'auto', border: '2px solid grey' }} >
         <TableHead>
           <TableRow>
-            <StyledTableCell align="center" style={{fontWeight:'bold',fontFamily:'Audiowide'}}>Grade</StyledTableCell>
-            <StyledTableCell align="center" style={{fontWeight:'bold',fontFamily:'Audiowide'}}>Range</StyledTableCell>
+            <StyledTableCell align="center" style={{ fontWeight: 'bold', fontFamily: 'Audiowide' }}>Grade</StyledTableCell>
+            <StyledTableCell align="center" style={{ fontWeight: 'bold', fontFamily: 'Audiowide' }}>Range</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {rows.map((row) => (
             <StyledTableRow key={row.grade}>
-              <StyledTableCell component="th" scope="row" style={{borderLeft:'1px solid black',fontWeight:'bold',fontFamily:'Audiowide'}} align="center">
+              <StyledTableCell component="th" scope="row" style={{ borderLeft: '1px solid black', fontWeight: 'bold', fontFamily: 'Audiowide' }} align="center">
                 {row.grade}
               </StyledTableCell>
-              <StyledTableCell style={{borderLeft:'1px solid black',fontWeight:'bold',fontFamily:'Audiowide'}} align="center">{row.range}</StyledTableCell>
+              <StyledTableCell style={{ borderLeft: '1px solid black', fontWeight: 'bold', fontFamily: 'Audiowide' }} align="center">{row.range}</StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>

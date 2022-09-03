@@ -2,8 +2,8 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
-    return (
-<footer class="footer-distributed">
+  return (
+    <footer class="footer-distributed">
       <div class="footer-left">
         <p class="footer-company-name">La Martiniere For Boys © 2022</p>
         <div class="footer-icons">
@@ -20,7 +20,7 @@ const Footer = () => {
 
         <form action="#" method="post">
 
-          <input type="text" name="email" placeholder="Email"/>
+          <input type="text" name="email" placeholder="Email" />
           <textarea name="message" placeholder="Message"></textarea>
           <button>Send</button>
 
@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
 
     </footer>
-    );
+  );
 };
 
 export default Footer;

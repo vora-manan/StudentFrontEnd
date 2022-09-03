@@ -1,12 +1,12 @@
+import { Box, Grid, Paper } from '@material-ui/core';
 import React from 'react';
-import Table from '../components/Marks'
-import GradeChart from '../components/GradeChart'
-import NavBar from '../components/NavBarForLogin';
-import GradeTable from '../components/GradeTable'
-import Attendance from '../components/Attendance'
-import { Paper, Grid, Box, Typography } from '@material-ui/core';
-import './ReportCard.css'
+import Attendance from '../components/Attendance';
 import Footer from '../components/Footer';
+import GradeChart from '../components/GradeChart';
+import GradeTable from '../components/GradeTable';
+import Table from '../components/Marks';
+import NavBar from '../components/NavBarForLogin';
+import './ReportCard.css';
 
 
 export default function ReportCard(props) {
@@ -14,7 +14,7 @@ export default function ReportCard(props) {
 
         <React.Fragment>
             <NavBar />
-            <Paper elevation={10} style={{backgroundColor: '#D7D7BE', marginBottom: '5px' }}>
+            <Paper elevation={10} style={{ backgroundColor: '#D7D7BE', marginBottom: '5px' }}>
                 <Grid
                     container
                     alignItems="center"
@@ -87,7 +87,7 @@ export default function ReportCard(props) {
                     ]} />
                 </Grid>
                 <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
-                <h2 style={{ fontWeight: 'bold', fontFamily: 'Audiowide' }}>Marks Distribution</h2>
+                    <h2 style={{ fontWeight: 'bold', fontFamily: 'Audiowide' }}>Marks Distribution</h2>
                     <Attendance COLORS={["#404040", "#606060", "#989898", "#D3D3D3", "#E8E8E8"]}
                         pieData={[
                             {

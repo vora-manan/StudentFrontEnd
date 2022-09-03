@@ -9,9 +9,9 @@ import Footer from '../components/Footer';
 import NavBar from '../components/Navbar';
 import Table from '../components/Subjects';
 
-const parallax1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTie0Qwchx8SeKK4iJ5C_vVlQYeG9MFOVvIjsXORm2Df_0RDu_oVDl-QqDQ0kjrDbjd1wA&usqp=CAU"
-const parallax2="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1N_ukBU1zeGrEuqLi_5xF5ji9qdLMmL0y7PTSNc3gdPAjw2_geJo1WO_HD_BmfHG_Jg&usqp=CAU"
-const parallax3="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTACCoI0f2cMXDA_FrBVb5bcqpeJZdxFa2PluxT2A8b6dWSg3hxicN1Z6DQ8VsITWyDDW0&usqp=CAU"
+const parallax1 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTie0Qwchx8SeKK4iJ5C_vVlQYeG9MFOVvIjsXORm2Df_0RDu_oVDl-QqDQ0kjrDbjd1wA&usqp=CAU"
+const parallax2 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1N_ukBU1zeGrEuqLi_5xF5ji9qdLMmL0y7PTSNc3gdPAjw2_geJo1WO_HD_BmfHG_Jg&usqp=CAU"
+const parallax3 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTACCoI0f2cMXDA_FrBVb5bcqpeJZdxFa2PluxT2A8b6dWSg3hxicN1Z6DQ8VsITWyDDW0&usqp=CAU"
 
 
 const StudentInfo = (props) => {
@@ -46,71 +46,71 @@ const StudentInfo = (props) => {
       </Paper>
 
       <Parallax bgImage={parallax1} strength={500}>
-          <Grid container
-            alignItems="center"
-            justifyContent="center"
-            style={{ backgroundColor: 'transparent', marginTop: '20px' }}>
-            <Grid item xs={12} sm={6} style={{ textAlign: 'center'}}>
-              <h2> Attendance Records </h2>
-              <Attendance COLORS={["#8884d8", "#82ca9d", "#FFBB28", "#FF8042", "#AF19FF"]} pieData={[
-                {
-                  name: "January",
-                  value: 75
-                },
-                {
-                  name: "February",
-                  value: 85
-                },
-                {
-                  name: "March",
-                  value: 95
-                },
-                {
-                  name: "May",
-                  value: 89
-                },
-                {
-                  name: "June",
-                  value: 92
-                },
-                {
-                  name: "July",
-                  value: 99
-                },
-                {
-                  name: "August",
-                  value: 84
-                },
-                {
-                  name: "September",
-                  value: 82
-                },
-                {
-                  name: "October",
-                  value: 91
-                },
-                {
-                  name: "November",
-                  value: 100
-                },
-                {
-                  name: "December",
-                  value: 100
-                }
-              ]} 
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
-              <h2>Subjects Undertaken</h2>
-              <Table rows={[{ subject: 'Mathmatics', grade: 'A', teacher: 'Rehman', remark: 'Good' }, { subject: 'Science', grade: 'A', teacher: 'Rehman', remark: 'Good' }, { subject: 'English', grade: 'A', teacher: 'Rehman', remark: 'Good' }, { subject: 'Hindi', grade: 'A', teacher: 'Rehman', remark: 'Good' }, { subject: 'Social Studies', grade: 'A', teacher: 'Rehman', remark: 'Good' }]} />
-            </Grid>
+        <Grid container
+          alignItems="center"
+          justifyContent="center"
+          style={{ backgroundColor: 'transparent', marginTop: '20px' }}>
+          <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
+            <h2> Attendance Records </h2>
+            <Attendance COLORS={["#8884d8", "#82ca9d", "#FFBB28", "#FF8042", "#AF19FF"]} pieData={[
+              {
+                name: "January",
+                value: 75
+              },
+              {
+                name: "February",
+                value: 85
+              },
+              {
+                name: "March",
+                value: 95
+              },
+              {
+                name: "May",
+                value: 89
+              },
+              {
+                name: "June",
+                value: 92
+              },
+              {
+                name: "July",
+                value: 99
+              },
+              {
+                name: "August",
+                value: 84
+              },
+              {
+                name: "September",
+                value: 82
+              },
+              {
+                name: "October",
+                value: 91
+              },
+              {
+                name: "November",
+                value: 100
+              },
+              {
+                name: "December",
+                value: 100
+              }
+            ]}
+            />
           </Grid>
+          <Grid item xs={12} sm={6} style={{ textAlign: 'center' }}>
+            <h2>Subjects Undertaken</h2>
+            <Table rows={[{ subject: 'Mathmatics', grade: 'A', teacher: 'Rehman', remark: 'Good' }, { subject: 'Science', grade: 'A', teacher: 'Rehman', remark: 'Good' }, { subject: 'English', grade: 'A', teacher: 'Rehman', remark: 'Good' }, { subject: 'Hindi', grade: 'A', teacher: 'Rehman', remark: 'Good' }, { subject: 'Social Studies', grade: 'A', teacher: 'Rehman', remark: 'Good' }]} />
+          </Grid>
+        </Grid>
       </Parallax>
-      <br/>
+      <br />
       <Parallax bgImage={parallax2} strength={500}>
         <Grid item xs={12}>
           <Examinations></Examinations>
-          </Grid>
+        </Grid>
       </Parallax>
       <Parallax bgImage={parallax3} strength={500}>
         <div>
