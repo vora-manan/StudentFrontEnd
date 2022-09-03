@@ -1,0 +1,17 @@
+.flash {
+    animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    0%{
+       color: red;
+    }
+    75% {
+       color:green
+    }
+ }
