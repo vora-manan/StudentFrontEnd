@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer class="footer-distributed">
       <div class="footer-left">
-        <p class="footer-company-name">La Martiniere For Boys © 2022</p>
+        <p class="footer-company-name">Lorum Ipsum School For Boys © 2022</p>
         <div class="footer-icons">
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>

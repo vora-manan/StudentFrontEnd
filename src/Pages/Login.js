@@ -76,7 +76,7 @@ const Login = () => {
 
             </Grid>
             <footer style={{ backgroundColor: '#404040', borderRadius: '10px' }}>
-                <p style={{ color: 'white', textAlign: 'center', padding: '10px' }}> 	&#169; Department of Comupter Science, La Martiniere For Boys</p>
+                <p style={{ color: 'white', textAlign: 'center', padding: '10px' }}> 	&#169; Department of Comupter Science, Lorun Ipsum School For Boys</p>
             </footer>
         </React.Fragment>
 
