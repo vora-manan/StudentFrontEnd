@@ -8,14 +8,14 @@ import NavBarForLogin from '../components/NavBarForLogin';
 import Slider from '../components/Slider';
 
 const items = [
-    '1. Download online grade card of M.Phil. MPOC 11, MPIN 11, MPPH 11, MPWO 11 ODD_2022. Notice Date: Wed 24 Aug 2022 05:31:39 PM',
-    '2. Download online grade card of M.Phil. MPOC 12, MPWO 12 EVEN_2021. Notice Date: Wed 24 Aug 2022 05:33:35 PM',
-    '3. Special Supple Form Fill up is live for BA and MA. Eligible Students can submit the Form. BA and MA FORM FILL UP for (ODD & EVEN SEM. SUPPLE) IS EXTENDED UP TO 04/09/2022.. Notice Date: Thu 01 Sep 2022 09:10:04 PM',
-    '4. Special Supple Form Fill up is live for BSC. Eligible Students can submit the Form.. Notice Date: Wed 31 Aug 2022 10:15:30 PM',
-    '5. Download online grade card M.LISc. Digital Library (Evening) M.A MLID 11 1st Year 1sem 2022. Notice Date: Fri 26 Aug 2022 06:48:46 PM',
-    '6. Download online grade card M.A English 2.2 Final Year 2nd Year 2nd Sem. Notice Date: Fri 26 Aug 2022 06:46:05 PM',
-    '7. Download online grade card LIBRARY AND INFORMATION SCIENCE M.A MLIB 11 1st Year 1sem 2022. Notice Date: Fri 26 Aug 2022 04:00:28 PM',
-    '8. Download online grade card of M.Phil. MPLB 11 ODD_2022. Notice Date: Thu 25 Aug 2022 03:55:08 PM'
+    '1. Tomorrow, Tuesday 09th August 2022, is a holiday on account of Muharram.',
+    '2. Circular for Mathematics Standard / Mathematics Basic for Class X',
+    '3. Summer Vacation for Classes III to VIII will commence from 21st May, 2022 (Saturday). Holiday Home Work can be viewed in Google classroom and Class WhatsApp group. The school will reopen on 1 st July,2022 (Friday ).',
+    '4. Monday is a holiday on account of Buddh Purnima.The school will remain closed.',
+    '5. Bringing and usage of mobile phones by students is strictly prohibited in the school premises.',
+    '6. The school is not responsible for the loss/theft or its misuse',
+    '7. School reopening Circular for classes VI to VIII',
+    '8. School reopening Circular for classes IX to XII'
 ]
 const Login = () => {
 

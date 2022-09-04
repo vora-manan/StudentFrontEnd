@@ -11,9 +11,9 @@ export default function NavBarForLogin() {
       <AppBar position="static" style={{ backgroundColor: '#DCDCDC' }}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <img src="https://www.skooltree.com/wp-content/uploads/2020/01/LA-MARTINIERE-FOR-BOYS-Kolkata.png" style={{ borderRadius: '50%', height: '15vh' }}></img>
+            <img src="https://www.designevo.com/res/templates/thumb_small/black-wheat-and-mortarboard.webp" style={{ borderRadius: '50%', height: '15vh' }}></img>
           </Typography>
-          <Typography variant="h3" style={{ fontFamily: "Audiowide", color: 'black', fontSize: '200%' }}>La Martiniere For Boys</Typography>
+          <Typography variant="h3" style={{ fontFamily: "Audiowide", color: 'black', fontSize: '200%' }}>Lorum Ipsum School For Boys</Typography>
         </Toolbar>
       </AppBar>
     </Box>

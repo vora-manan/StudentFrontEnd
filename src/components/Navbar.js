@@ -12,9 +12,9 @@ export default function NavBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd-sxp-D_j_v-CUgAMFq_H7ma81XOlvg3REUz4d6o8&s"></Avatar>
+            <Avatar src="https://www.designevo.com/res/templates/thumb_small/black-wheat-and-mortarboard.webp"></Avatar>
           </Typography>
-          <Button color="inherit">La Martiniere For Boys</Button>
+          <Button color="inherit">Lorum Ipsum School For Boys</Button>
         </Toolbar>
       </AppBar>
     </Box>
